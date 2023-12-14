@@ -7,7 +7,7 @@ namespace App;
 class PrimeFactor
 {
 
-    public function generate($number)
+    public function generate($number): array
     {
         $factors = [];
 

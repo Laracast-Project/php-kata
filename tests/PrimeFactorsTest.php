@@ -16,7 +16,7 @@ class PrimeFactorsTest extends TestCase
         $this->assertEquals($expected, $factors->generate($number));
     }
 
-    public function factors()
+    public function factors(): array
     {
         return [
             [1, []],

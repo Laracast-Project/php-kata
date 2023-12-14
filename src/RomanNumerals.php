@@ -14,7 +14,7 @@ class RomanNumerals
         'I' => 1
     ];
 
-    public static function generate($number)
+    public static function generate($number): bool|string
     {
         $result = '';
 

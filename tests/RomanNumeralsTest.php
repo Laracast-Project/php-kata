@@ -18,7 +18,8 @@ class RomanNumeralsTest extends TestCase
         $this->assertFalse(\App\RomanNumerals::generate(0));
     }
 
-    public function check(){
+    public function check(): array
+    {
         return [
             [1, 'I'],
             [2, 'II'],
